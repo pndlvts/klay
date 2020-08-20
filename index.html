@@ -22,7 +22,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="main__banner banner">
+                    <div class="main__banner banner d-none d-md-block">
                         <h5 class="banner__title">Датчики давления и датчики уровня</h5>
                         <h6 class="banner__sub-title">для пищевой, химической и фармацевтической промышленности</h6>
                         <ul class="plus">
@@ -47,7 +47,7 @@
                         </div>
                     </div>
                     <nav class="navigation">
-                        <ul class="navigation__nav-list">
+                        <ul class="navigation__nav-list d-block d-md-flex">
                             <li class="navigation__nav-item">
                                 <a href="https://klaysensor.ru/" class="navigation__nav-link">Главная</a>
                             </li>
@@ -80,7 +80,7 @@
                         <h5>О компании</h5>
                     </div>
                     <div class="row about">
-                        <div class="col-9">
+                        <div class="col-12 col-md-9">
                             <p class="about__txt">
                                 <strong>Компания KLAY Instruments BV</strong> является голландским производителем датчиков давления и датчиков уровня из нержавеющей стали. Продукция KLAY получила наибольшее распространение в пищевой, фармацевтической, химической промышленности, а также в системах водоподготовки и очистки сточных вод. Датчики давления и датчики уровня KLAY отличаются высокой точностью (не менее 0,2 % от диапазона измерения) и надежностью, что подтверждается наличием различных сертификатов, в том числе сертификата системы менеджмента качества <a href="https://klaysensor.ru/certificates/ISO_9001-2008.pdf">ISO 9001:2000</a> и сертификатов <a href="https://klaysensor.ru/certificates/3A_Food_certificate.pdf">3A Food</a>, <a href="https://klaysensor.ru/certificates/Germanischer_Lloyd.pdf">Germanischer Lloyd</a>, <a href="https://klaysensor.ru/certificates/Lloyds_Register.pdf">Lloyd's Register</a>, <a href="https://klaysensor.ru/certificates/RINA.pdf">RINA</a>, <a href="https://klaysensor.ru/certificates/Bureau_Veritas.pdf">Bureau Veritas</a> и другими.
 
@@ -89,7 +89,7 @@
                                 Продукция KLAY сертифицирована в России – <a href="https://klaysensor.ru/certificates/ss_big.jpg">сертификат соответствия</a>, а также одобрена для применеия на пищевых производствах – <a href="https://klaysensor.ru/certificates/sez_big.jpg">санитарно-эпидемиологическое заключение</a>, – <a href="https://klaysensor.ru/certificates/sez_big.jpg">свидетельство об утверждении типа средств измерений</a>, – <a href="https://klaysensor.ru/certificates/rtn_big.jpg">разрешение Ростехнадзора</a> на применение датчиков на опасных производственных объектах нефтеперерабатывающей и нефтехимической промышленности.
                             </p>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3 d-none d-md-block">
                             <div class="about__house">
                                 <img src="media/klaycompany.jpg" alt="house">
                             </div>
@@ -127,22 +127,22 @@
                             <div class="col-12">
                                 <h5 class="title">Контакты ООО «КИП-Сервис»:</h5>
                             </div>
-                            <div class="col-8 capital-city">
-                               <div class="contacts__city">
-                                <div class="contacts__title">
-                                    г. Москва
-                                </div>
-                                <hr>
-                                <div class="contacts__info">
-                                    <a href="tel:4957603362" class="contacts__phone-num">Тел.: (495) 760 33 62</a>
-                                    <br>
-                                    <span>Факс: (495) 760 33 94</span>
-                                    <br>
-                                    <span>e-mail: </span><a href="mailto:iis@kipservis.ru">iis@kipservis.ru</a>
+                            <div class="col-5 col-md-8 capital-city">
+                                <div class="contacts__city">
+                                    <div class="contacts__title">
+                                        г. Москва
+                                    </div>
+                                    <hr>
+                                    <div class="contacts__info">
+                                        <a href="tel:4957603362" class="contacts__phone-num">Тел.: (495) 760 33 62</a>
+                                        <br>
+                                        <span>Факс: (495) 760 33 94</span>
+                                        <br>
+                                        <span>e-mail: </span><a href="mailto:iis@kipservis.ru">iis@kipservis.ru</a>
+                                    </div>
                                 </div>
                             </div>
-                            </div>
-                            <div class="col-4 all-cities">
+                            <div class="col-6 col-md-4 all-cities">
                                 <div class="contacts__city">
                                     <div class="contacts__title">
                                         Другие города
@@ -159,8 +159,25 @@
             </div>
         </div>
     </div>
-    <footer>
-        
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <div class="footer__company">
+                        <span>Klay Instruments BV</span>
+                        <br>
+                        <span>Официальный дистрибьютор в России: ООО «КИП-Сервис»</span>
+                        <br>
+                        <span>тел.: </span>
+                        <a href="tel:88007754682">8 800 775-46-82</a>,
+                        <a href="tel:84993488294">(499) 348-82-94</a>, Email: <a href="mailto:iis@kipservis.ru">iis@kipservis.ru</a>
+                    </div>
+                </div>
+                <div class="d-none d-md-block col-md-7 footer__cert">
+                    <img src="media/footer_bckg_cert.png" alt="cert" title="">
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="bootstrap/js/jquery-3.3.1.js"></script>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>

@@ -1,0 +1,23 @@
+.footer {
+    background: url("../media/footer_bckg.gif");
+    height: 94px;
+    margin-top: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 16px;
+    color: #406da0;
+    a, a:active, a:visited{
+        color: #235880;
+        text-decoration: underline;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+    &__cert{
+        overflow: hidden;
+        img{
+            max-width: 100%
+        }
+    }
+}
