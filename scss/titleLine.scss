@@ -1,0 +1,32 @@
+.title-line {
+    height: 36px;
+    background: url(../media/title_line.jpg);
+    background-size: cover;
+    padding: 4px 0 0 10px;
+    color: $deep-blue;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+
+    h5 {
+        font-size: 16px;
+        font-weight: bold
+    }
+}
+
+.about {
+    margin-top: 20px;
+
+    &__txt {
+        text-align: justify;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    &__house {
+        padding: 10px 10px 10px 15px;
+        border: 1px dotted $deep-gray;
+        text-align: center
+    }
+
+
+}

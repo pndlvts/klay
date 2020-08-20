@@ -1,0 +1,46 @@
+.banner {
+    background: url("../media/head_bg_lite3.jpg");
+    height: 176px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 30px 0 19px 60px;
+    position: relative;
+
+    &__layer {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    &__title,
+    &__sub-title {
+        color: $deep-blue;
+        font-weight: bold;
+    }
+
+    &__title {
+        font-size: 21px;
+
+    }
+
+    &__sub-title {
+        font-size: 17px;
+    }
+
+    .plus {
+        list-style-type: none;
+        margin-top: 12px;
+
+        li {
+            font-size: 11px;
+            line-height: 12px;
+            color: #000;
+        }
+
+        li:before {
+            content: "-";
+            display: inline-block;
+            margin-right: 5px;
+        }
+    }
+}

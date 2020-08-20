@@ -1,0 +1,12 @@
+.products{
+    margin-top: 40px;
+    color: #000;
+    &__list{
+        display: block;
+        font-size: 12px;
+        padding-left: 40px;
+    }
+    &__item{
+        line-height: 16px;
+    }
+}

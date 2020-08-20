@@ -1,0 +1,27 @@
+.contacts {
+    margin-top: 40px;
+    &__city{
+        border: 1px dotted $deep-gray;
+        padding: 10px 10px 10px 15px;
+        height: 100%
+    }
+    &__title{
+        line-height: 16px;
+        margin-bottom: 5px;
+        color: #204F39;
+    }
+    &__info{
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    &__phone-num, &__phone-num:active, &__phone-num:visited{
+        color: #000;
+        text-decoration: none;
+    }
+}
+.all-cities{
+padding-left: 0;   
+}
+.capital-city{
+    padding-right: 5px;
+}
